@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.intro img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.intro .btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.feature h3 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 1.2rem;
+}
+
+#about {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about ul li {
+    margin: 10px 0;
+}
+
+#screenshots {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.screenshot {
+    display: inline-block;
+    margin: 10px;
+}
+
+.screenshot img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.screenshot p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
